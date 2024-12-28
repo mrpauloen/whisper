@@ -1,0 +1,26 @@
+
+[MONITORING STARTED]
+Legenda:
+GPU Stats: [Utilization %, Memory Utilization %, Temperature (°C), Power Draw (W)]
+
+CPU Usage: 46.5%
+Memory Usage: 31.0%
+GPU Stats: 0, 0, 41, 23.85
+CPU Usage: 45.4%
+Memory Usage: 31.0%
+GPU Stats: 0, 0, 41, 23.87
+CPU Usage: 41.0%
+Memory Usage: 31.1%
+GPU Stats: 0, 0, 42, 23.86
+CPU Usage: 46.0%
+Memory Usage: 33.8%
+GPU Stats: 0, 0, 42, 23.92
+CPU Usage: 23.1%
+Memory Usage: 31.2%
+GPU Stats: 54, 18, 42, 28.32
+CPU Usage: 28.3%
+Memory Usage: 31.2%
+GPU Stats: 47, 15, 42, 29.09
+CPU Usage: 17.9%
+Memory Usage: 31.2%
+GPU Stats: 59, 16, 43, 29.06

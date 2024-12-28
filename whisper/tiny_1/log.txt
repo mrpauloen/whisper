@@ -1,0 +1,413 @@
+
+[MONITORING STARTED]
+Legenda:
+GPU Stats: [Utilization %, Memory Utilization %, Temperature (°C), Power Draw (W)]
+
+CPU Usage: 47.8%
+Memory Usage: 30.9%
+GPU Stats: 0, 0, 37, 23.40
+CPU Usage: 41.8%
+Memory Usage: 31.0%
+GPU Stats: 0, 0, 37, 23.40
+CPU Usage: 40.4%
+Memory Usage: 31.1%
+GPU Stats: 0, 0, 37, 23.55
+CPU Usage: 44.6%
+Memory Usage: 33.7%
+GPU Stats: 0, 0, 38, 23.45
+CPU Usage: 25.5%
+Memory Usage: 31.1%
+GPU Stats: 54, 17, 38, 29.26
+CPU Usage: 26.4%
+Memory Usage: 31.2%
+GPU Stats: 57, 14, 38, 29.97
+CPU Usage: 18.5%
+Memory Usage: 31.2%
+GPU Stats: 54, 16, 38, 29.10
+CPU Usage: 27.2%
+Memory Usage: 31.2%
+GPU Stats: 60, 17, 38, 30.54
+CPU Usage: 27.5%
+Memory Usage: 31.2%
+GPU Stats: 55, 17, 39, 27.67
+CPU Usage: 19.8%
+Memory Usage: 31.1%
+GPU Stats: 56, 17, 39, 28.80
+CPU Usage: 34.5%
+Memory Usage: 30.8%
+GPU Stats: 41, 13, 39, 29.73
+CPU Usage: 28.8%
+Memory Usage: 30.8%
+GPU Stats: 53, 16, 39, 30.64
+CPU Usage: 33.0%
+Memory Usage: 30.8%
+GPU Stats: 47, 14, 40, 28.64
+CPU Usage: 25.4%
+Memory Usage: 30.8%
+GPU Stats: 53, 16, 40, 39.73
+CPU Usage: 29.0%
+Memory Usage: 30.8%
+GPU Stats: 45, 14, 40, 29.09
+CPU Usage: 32.9%
+Memory Usage: 30.8%
+GPU Stats: 57, 14, 40, 29.39
+CPU Usage: 33.3%
+Memory Usage: 30.8%
+GPU Stats: 58, 15, 40, 28.22
+CPU Usage: 25.7%
+Memory Usage: 30.8%
+GPU Stats: 48, 14, 40, 29.68
+CPU Usage: 26.7%
+Memory Usage: 30.8%
+GPU Stats: 56, 17, 41, 29.70
+CPU Usage: 27.1%
+Memory Usage: 30.8%
+GPU Stats: 56, 17, 41, 41.51
+CPU Usage: 27.8%
+Memory Usage: 30.8%
+GPU Stats: 55, 13, 41, 27.39
+CPU Usage: 29.5%
+Memory Usage: 30.8%
+GPU Stats: 54, 17, 41, 29.56
+CPU Usage: 27.0%
+Memory Usage: 30.8%
+GPU Stats: 56, 17, 41, 29.40
+CPU Usage: 24.1%
+Memory Usage: 30.8%
+GPU Stats: 52, 15, 41, 27.87
+CPU Usage: 25.5%
+Memory Usage: 30.8%
+GPU Stats: 51, 16, 42, 29.25
+CPU Usage: 25.2%
+Memory Usage: 30.8%
+GPU Stats: 56, 17, 42, 28.50
+CPU Usage: 31.5%
+Memory Usage: 30.8%
+GPU Stats: 45, 13, 42, 27.86
+CPU Usage: 29.8%
+Memory Usage: 30.8%
+GPU Stats: 58, 14, 42, 28.58
+CPU Usage: 25.8%
+Memory Usage: 30.8%
+GPU Stats: 57, 13, 42, 27.31
+CPU Usage: 31.2%
+Memory Usage: 30.8%
+GPU Stats: 45, 14, 43, 29.58
+CPU Usage: 20.3%
+Memory Usage: 30.8%
+GPU Stats: 57, 17, 43, 30.33
+CPU Usage: 29.4%
+Memory Usage: 30.8%
+GPU Stats: 64, 16, 43, 28.76
+CPU Usage: 22.1%
+Memory Usage: 30.8%
+GPU Stats: 60, 15, 43, 29.50
+CPU Usage: 25.6%
+Memory Usage: 30.8%
+GPU Stats: 55, 17, 43, 29.58
+CPU Usage: 27.6%
+Memory Usage: 30.8%
+GPU Stats: 56, 17, 44, 27.67
+CPU Usage: 28.2%
+Memory Usage: 30.8%
+GPU Stats: 49, 15, 44, 30.15
+CPU Usage: 26.6%
+Memory Usage: 30.8%
+GPU Stats: 56, 17, 44, 29.25
+CPU Usage: 26.6%
+Memory Usage: 30.8%
+GPU Stats: 56, 18, 44, 29.11
+CPU Usage: 23.7%
+Memory Usage: 30.8%
+GPU Stats: 55, 17, 44, 29.24
+CPU Usage: 27.1%
+Memory Usage: 30.8%
+GPU Stats: 56, 17, 44, 30.92
+CPU Usage: 27.2%
+Memory Usage: 30.8%
+GPU Stats: 45, 14, 44, 29.42
+CPU Usage: 24.2%
+Memory Usage: 30.8%
+GPU Stats: 53, 16, 45, 29.56
+CPU Usage: 25.9%
+Memory Usage: 30.8%
+GPU Stats: 56, 17, 45, 29.56
+CPU Usage: 25.4%
+Memory Usage: 30.8%
+GPU Stats: 52, 16, 45, 29.42
+CPU Usage: 24.7%
+Memory Usage: 30.8%
+GPU Stats: 43, 13, 45, 28.83
+CPU Usage: 20.2%
+Memory Usage: 30.8%
+GPU Stats: 56, 17, 45, 34.93
+CPU Usage: 26.1%
+Memory Usage: 30.8%
+GPU Stats: 56, 17, 45, 30.45
+CPU Usage: 24.8%
+Memory Usage: 30.8%
+GPU Stats: 53, 16, 45, 30.92
+CPU Usage: 27.2%
+Memory Usage: 30.8%
+GPU Stats: 57, 17, 46, 29.57
+CPU Usage: 26.9%
+Memory Usage: 30.8%
+GPU Stats: 57, 17, 46, 29.26
+CPU Usage: 27.3%
+Memory Usage: 30.8%
+GPU Stats: 53, 16, 46, 29.39
+CPU Usage: 25.0%
+Memory Usage: 30.8%
+GPU Stats: 56, 17, 46, 29.84
+CPU Usage: 28.7%
+Memory Usage: 30.9%
+GPU Stats: 47, 14, 46, 28.15
+CPU Usage: 47.3%
+Memory Usage: 31.2%
+GPU Stats: 42, 13, 46, 30.09
+CPU Usage: 34.5%
+Memory Usage: 31.2%
+GPU Stats: 55, 13, 46, 29.50
+CPU Usage: 63.2%
+Memory Usage: 31.5%
+GPU Stats: 40, 12, 46, 29.14
+CPU Usage: 44.6%
+Memory Usage: 31.5%
+GPU Stats: 47, 14, 46, 28.69
+CPU Usage: 42.3%
+Memory Usage: 31.6%
+GPU Stats: 52, 16, 46, 31.09
+CPU Usage: 28.6%
+Memory Usage: 31.5%
+GPU Stats: 45, 14, 46, 30.02
+CPU Usage: 26.3%
+Memory Usage: 31.5%
+GPU Stats: 53, 16, 46, 28.80
+CPU Usage: 28.1%
+Memory Usage: 31.5%
+GPU Stats: 51, 16, 47, 30.30
+CPU Usage: 25.7%
+Memory Usage: 31.5%
+GPU Stats: 44, 13, 46, 31.60
+CPU Usage: 22.9%
+Memory Usage: 31.5%
+GPU Stats: 46, 14, 46, 28.63
+CPU Usage: 27.2%
+Memory Usage: 31.5%
+GPU Stats: 52, 16, 47, 28.80
+CPU Usage: 37.5%
+Memory Usage: 31.7%
+GPU Stats: 49, 15, 46, 28.24
+CPU Usage: 36.7%
+Memory Usage: 31.7%
+GPU Stats: 53, 16, 46, 31.19
+CPU Usage: 28.0%
+Memory Usage: 31.7%
+GPU Stats: 52, 16, 47, 28.76
+CPU Usage: 28.5%
+Memory Usage: 31.6%
+GPU Stats: 57, 14, 47, 30.36
+CPU Usage: 22.4%
+Memory Usage: 31.6%
+GPU Stats: 53, 16, 47, 28.32
+CPU Usage: 29.2%
+Memory Usage: 31.5%
+GPU Stats: 51, 15, 47, 29.63
+CPU Usage: 35.1%
+Memory Usage: 31.6%
+GPU Stats: 58, 15, 47, 28.24
+CPU Usage: 24.2%
+Memory Usage: 31.6%
+GPU Stats: 47, 14, 47, 30.26
+CPU Usage: 34.3%
+Memory Usage: 31.5%
+GPU Stats: 53, 16, 47, 30.76
+CPU Usage: 29.3%
+Memory Usage: 31.6%
+GPU Stats: 36, 10, 47, 40.73
+CPU Usage: 39.6%
+Memory Usage: 31.6%
+GPU Stats: 54, 17, 47, 30.44
+CPU Usage: 27.3%
+Memory Usage: 31.6%
+GPU Stats: 54, 17, 47, 29.40
+CPU Usage: 27.0%
+Memory Usage: 31.6%
+GPU Stats: 53, 14, 47, 30.12
+CPU Usage: 22.0%
+Memory Usage: 31.6%
+GPU Stats: 58, 14, 47, 30.66
+CPU Usage: 20.6%
+Memory Usage: 31.6%
+GPU Stats: 56, 17, 47, 31.36
+CPU Usage: 26.1%
+Memory Usage: 31.5%
+GPU Stats: 54, 16, 47, 30.31
+CPU Usage: 27.3%
+Memory Usage: 31.5%
+GPU Stats: 52, 16, 47, 30.33
+CPU Usage: 25.3%
+Memory Usage: 31.5%
+GPU Stats: 54, 16, 47, 29.57
+CPU Usage: 19.7%
+Memory Usage: 31.6%
+GPU Stats: 54, 12, 47, 28.22
+CPU Usage: 18.9%
+Memory Usage: 31.6%
+GPU Stats: 56, 16, 47, 29.83
+CPU Usage: 20.6%
+Memory Usage: 31.4%
+GPU Stats: 54, 16, 47, 29.69
+CPU Usage: 21.2%
+Memory Usage: 31.4%
+GPU Stats: 53, 16, 47, 29.23
+CPU Usage: 18.6%
+Memory Usage: 31.4%
+GPU Stats: 54, 16, 47, 28.21
+CPU Usage: 19.6%
+Memory Usage: 31.4%
+GPU Stats: 52, 15, 47, 28.78
+CPU Usage: 19.2%
+Memory Usage: 31.4%
+GPU Stats: 52, 15, 47, 28.80
+CPU Usage: 20.7%
+Memory Usage: 31.4%
+GPU Stats: 57, 17, 47, 30.60
+CPU Usage: 28.2%
+Memory Usage: 31.4%
+GPU Stats: 60, 15, 47, 29.38
+CPU Usage: 23.9%
+Memory Usage: 31.4%
+GPU Stats: 54, 17, 47, 30.31
+CPU Usage: 36.7%
+Memory Usage: 31.1%
+GPU Stats: 53, 17, 47, 31.36
+CPU Usage: 44.9%
+Memory Usage: 31.1%
+GPU Stats: 40, 12, 47, 32.11
+CPU Usage: 28.0%
+Memory Usage: 31.1%
+GPU Stats: 55, 17, 47, 29.39
+CPU Usage: 28.5%
+Memory Usage: 31.1%
+GPU Stats: 55, 17, 47, 29.08
+CPU Usage: 27.0%
+Memory Usage: 31.1%
+GPU Stats: 54, 17, 47, 29.56
+CPU Usage: 27.2%
+Memory Usage: 31.1%
+GPU Stats: 56, 17, 47, 30.00
+CPU Usage: 20.5%
+Memory Usage: 31.1%
+GPU Stats: 58, 17, 47, 29.76
+CPU Usage: 22.5%
+Memory Usage: 31.0%
+GPU Stats: 54, 17, 47, 30.45
+CPU Usage: 27.1%
+Memory Usage: 31.0%
+GPU Stats: 56, 17, 47, 30.76
+CPU Usage: 25.8%
+Memory Usage: 31.0%
+GPU Stats: 55, 17, 47, 30.89
+CPU Usage: 25.1%
+Memory Usage: 31.0%
+GPU Stats: 42, 13, 47, 30.59
+CPU Usage: 26.5%
+Memory Usage: 31.0%
+GPU Stats: 60, 15, 47, 29.03
+CPU Usage: 26.6%
+Memory Usage: 31.1%
+GPU Stats: 56, 17, 47, 30.30
+CPU Usage: 27.0%
+Memory Usage: 31.1%
+GPU Stats: 57, 18, 47, 29.48
+CPU Usage: 27.3%
+Memory Usage: 31.1%
+GPU Stats: 48, 15, 47, 30.76
+CPU Usage: 26.5%
+Memory Usage: 31.1%
+GPU Stats: 51, 16, 47, 29.86
+CPU Usage: 19.4%
+Memory Usage: 31.1%
+GPU Stats: 57, 17, 47, 30.01
+CPU Usage: 28.5%
+Memory Usage: 31.0%
+GPU Stats: 46, 14, 47, 29.88
+CPU Usage: 26.1%
+Memory Usage: 31.0%
+GPU Stats: 57, 18, 48, 29.38
+CPU Usage: 25.4%
+Memory Usage: 31.0%
+GPU Stats: 57, 18, 47, 29.70
+CPU Usage: 16.7%
+Memory Usage: 31.0%
+GPU Stats: 55, 16, 47, 43.30
+CPU Usage: 25.5%
+Memory Usage: 31.0%
+GPU Stats: 56, 17, 48, 31.66
+CPU Usage: 21.3%
+Memory Usage: 31.0%
+GPU Stats: 58, 18, 48, 29.60
+CPU Usage: 19.9%
+Memory Usage: 31.0%
+GPU Stats: 53, 15, 48, 28.81
+CPU Usage: 18.7%
+Memory Usage: 31.0%
+GPU Stats: 57, 17, 48, 29.26
+CPU Usage: 16.9%
+Memory Usage: 31.0%
+GPU Stats: 55, 16, 48, 29.84
+CPU Usage: 18.5%
+Memory Usage: 31.0%
+GPU Stats: 53, 15, 48, 29.73
+CPU Usage: 19.1%
+Memory Usage: 31.0%
+GPU Stats: 55, 16, 48, 27.91
+CPU Usage: 20.3%
+Memory Usage: 31.0%
+GPU Stats: 56, 16, 48, 29.58
+CPU Usage: 20.7%
+Memory Usage: 31.0%
+GPU Stats: 52, 15, 48, 29.26
+CPU Usage: 26.3%
+Memory Usage: 31.0%
+GPU Stats: 46, 15, 48, 30.28
+CPU Usage: 25.3%
+Memory Usage: 31.0%
+GPU Stats: 54, 17, 48, 30.03
+CPU Usage: 26.5%
+Memory Usage: 31.0%
+GPU Stats: 56, 17, 48, 29.55
+CPU Usage: 25.1%
+Memory Usage: 31.0%
+GPU Stats: 55, 17, 48, 31.83
+CPU Usage: 25.0%
+Memory Usage: 31.0%
+GPU Stats: 55, 17, 48, 30.77
+CPU Usage: 25.1%
+Memory Usage: 31.0%
+GPU Stats: 56, 17, 48, 30.03
+CPU Usage: 26.9%
+Memory Usage: 31.0%
+GPU Stats: 54, 16, 48, 29.40
+CPU Usage: 27.9%
+Memory Usage: 31.0%
+GPU Stats: 55, 17, 48, 30.74
+CPU Usage: 21.9%
+Memory Usage: 31.0%
+GPU Stats: 56, 17, 48, 30.41
+CPU Usage: 21.3%
+Memory Usage: 31.0%
+GPU Stats: 55, 17, 48, 29.40
+CPU Usage: 32.5%
+Memory Usage: 31.0%
+GPU Stats: 55, 13, 48, 31.23
+CPU Usage: 20.9%
+Memory Usage: 31.0%
+GPU Stats: 57, 17, 48, 31.83
+CPU Usage: 19.9%
+Memory Usage: 31.0%
+GPU Stats: 65, 16, 48, 31.07
+CPU Usage: 2.1%
+Memory Usage: 31.0%
+GPU Stats: 0, 0, 48, 25.26
