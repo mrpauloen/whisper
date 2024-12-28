@@ -23,12 +23,14 @@
   Plik wynikowy (tiny.txt lub inny zależny od modelu) zostanie zapisany w automatycznie utworzonym podkatalogu (tiny, medium, itp.) z dodatkową numeracją w przypadku wielu uruchomień.
   Plik logów (log.txt) zawiera szczegóły użycia CPU, GPU, pamięci, temperatury oraz mocy.
 
-  Parametry w ścieżce poleceń mogą być przekazywane zarówno w cudzysłowie, jak i bez niego, pod warunkiem że nie zawierają spacji ani specjalnych znaków. Jeśli jednak wartości parametrów zawierają spacje, cudzysłowy są konieczne.
+Parametry w ścieżce poleceń mogą być przekazywane zarówno w cudzysłowie, jak i bez niego, pod warunkiem że nie zawierają spacji ani specjalnych znaków. Jeśli jednak wartości parametrów zawierają spacje, cudzysłowy są konieczne.
 
-  ```bash
+```
   python start.py --use_gpu=True --language="pl" --input_audio="audio.mp3" --model_name="tiny" --formatting_mode="timestamps" --show_progress=True --monitor_interval=2
+```
 
-lub
+lub:
 
-  ```bash
-  python start.py --language=pl --input_audio=audio.mp3 --model_name=tiny
+```
+python start.py --language=pl --input_audio=audio.mp3 --model_name=tiny
+```
