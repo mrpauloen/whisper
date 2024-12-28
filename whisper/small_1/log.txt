@@ -1,0 +1,2216 @@
+
+[MONITORING STARTED]
+Legenda:
+GPU Stats: [Utilization %, Memory Utilization %, Temperature (°C), Power Draw (W)]
+
+CPU Usage: 24.9%
+Memory Usage: 36.0%
+GPU Stats: GPU niedostępne
+CPU Usage: 40.8%
+Memory Usage: 36.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 37.3%
+Memory Usage: 36.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 46.1%
+Memory Usage: 38.8%
+GPU Stats: GPU niedostępne
+CPU Usage: 93.0%
+Memory Usage: 35.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 99.8%
+Memory Usage: 35.5%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.5%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.5%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.5%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.6%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.6%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 99.8%
+Memory Usage: 35.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.8%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.8%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.8%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.9%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.9%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.9%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.8%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.8%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.8%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.8%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.9%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.9%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.9%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.8%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.8%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.9%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.9%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.8%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.9%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.9%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.0%
+GPU Stats: GPU niedostępne
+CPU Usage: 99.8%
+Memory Usage: 36.0%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.0%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.0%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.0%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.9%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.9%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.0%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.9%
+GPU Stats: GPU niedostępne
+CPU Usage: 99.8%
+Memory Usage: 35.9%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.9%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.9%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.0%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.9%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.9%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.9%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.9%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.0%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.9%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.9%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.0%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.6%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.8%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.9%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 37.0%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 37.1%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 37.1%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 37.1%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 37.0%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 37.1%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 37.1%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 37.1%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 37.0%
+GPU Stats: GPU niedostępne
+CPU Usage: 99.8%
+Memory Usage: 37.0%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 37.1%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 37.1%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 37.1%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 37.0%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 37.0%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 37.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 99.8%
+Memory Usage: 37.0%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.9%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.0%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.0%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.0%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.0%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.1%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.0%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.0%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.0%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.0%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.0%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.0%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.1%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.1%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.1%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.0%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.0%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.0%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.1%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.1%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.1%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.0%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.0%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.0%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.1%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.1%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.1%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.0%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.0%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.0%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.0%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.1%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.1%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.0%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.0%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.0%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.0%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.1%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.1%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.1%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.1%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.1%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.0%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.0%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.1%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.5%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.6%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.8%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.8%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.8%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.8%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.9%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.9%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.0%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.0%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.1%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.5%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.8%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.8%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.8%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.8%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.8%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.8%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.8%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.8%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.8%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.8%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.9%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.9%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.9%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.8%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.8%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 37.1%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 37.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 37.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 37.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.0%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.8%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.8%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.8%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.9%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.0%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.0%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.1%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.1%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.1%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 99.8%
+Memory Usage: 36.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.1%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.1%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.1%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.1%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.1%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.0%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.9%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.0%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.0%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.0%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.1%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.1%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 99.8%
+Memory Usage: 36.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.1%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.1%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.1%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.1%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.0%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.0%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.0%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.1%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.1%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.1%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.1%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.1%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.0%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.1%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.1%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.1%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.1%
+GPU Stats: GPU niedostępne
+CPU Usage: 99.8%
+Memory Usage: 36.1%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.0%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.0%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.9%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.9%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.9%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.0%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.0%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.0%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.0%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.0%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.0%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.0%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.0%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.0%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.9%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.9%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.9%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.0%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.0%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.0%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.0%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.9%
+GPU Stats: GPU niedostępne
+CPU Usage: 99.8%
+Memory Usage: 35.9%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.9%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.9%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 35.9%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.1%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.1%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.1%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.1%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.5%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.5%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.5%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.5%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.5%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.5%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.5%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.5%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.5%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.5%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.8%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.9%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.9%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.8%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.8%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.8%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.8%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.8%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.8%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.8%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.8%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.8%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.8%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.8%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.8%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.8%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.8%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.6%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.6%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.8%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 37.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.8%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.8%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.8%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.8%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.8%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.8%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.6%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.6%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.5%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.8%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.9%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 37.0%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 37.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.8%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.8%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.8%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.8%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.9%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.9%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.9%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.8%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.8%
+GPU Stats: GPU niedostępne
+CPU Usage: 99.8%
+Memory Usage: 36.8%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.8%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.9%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.9%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.9%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.9%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.8%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.8%
+GPU Stats: GPU niedostępne
+CPU Usage: 99.8%
+Memory Usage: 36.8%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.8%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.8%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.8%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.9%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.9%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.8%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.8%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.5%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 36.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 32.5%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.5%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.5%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.5%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.5%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.6%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.6%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.5%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.5%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.5%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.7%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.6%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.5%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.5%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.5%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.5%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.6%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.4%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 99.8%
+Memory Usage: 31.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.1%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.1%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.1%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.1%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.0%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.1%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.1%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.1%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.1%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.1%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.0%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.1%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.1%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.1%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.2%
+GPU Stats: GPU niedostępne
+CPU Usage: 100.0%
+Memory Usage: 31.3%
+GPU Stats: GPU niedostępne
+CPU Usage: 35.5%
+Memory Usage: 31.3%
+GPU Stats: GPU niedostępne

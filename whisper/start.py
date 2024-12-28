@@ -6,29 +6,30 @@ from datetime import datetime
 import psutil
 import subprocess
 import argparse
+import wmi  # Dodanie obsługi WMI dla monitorowania temperatury CPU
 
 # Argumenty wiersza poleceń
 def parse_arguments():
     parser = argparse.ArgumentParser(description="Whisper transcription with GPU/CPU monitoring")
-    parser.add_argument("--use_gpu", type=bool, default=True, help="Czy używać GPU (True/False)")
+    parser.add_argument("--gpu", type=str, default="true", help="Czy używać GPU (true/false)")
     parser.add_argument("--language", type=str, default="pl", help="Język transkrypcji")
-    parser.add_argument("--input_audio", type=str, default="audio.mp3", help="Nazwa pliku wejściowego")
-    parser.add_argument("--model_name", type=str, default="tiny", help="Model Whisper do użycia (np. tiny, medium, large)")
-    parser.add_argument("--formatting_mode", type=str, default="default", help="Sposób formatowania tekstu (default, newlines_after_period, timestamps)")
-    parser.add_argument("--show_progress", type=bool, default=True, help="Wyświetlanie postępu transkrypcji")
-    parser.add_argument("--monitor_interval", type=int, default=1, help="Interwał monitorowania zasobów w sekundach")
+    parser.add_argument("--input", type=str, default="audio.mp3", help="Nazwa pliku wejściowego")
+    parser.add_argument("--model", type=str, default="tiny", help="Model Whisper do użycia (np. tiny, medium, large)")
+    parser.add_argument("--format", type=str, default="default", help="Sposób formatowania tekstu (default, newlines_after_period, timestamps)")
+    parser.add_argument("--progress", type=str, default="true", help="Wyświetlanie postępu transkrypcji (true/false)")
+    parser.add_argument("--interval", type=int, default=1, help="Interwał monitorowania zasobów w sekundach")
     return parser.parse_args()
 
 args = parse_arguments()
 
-# Konfigurowalne zmienne
-USE_GPU = args.use_gpu
+# Konwersja argumentów string na odpowiednie typy logiczne
+USE_GPU = args.gpu.lower() == "true"
+SHOW_PROGRESS = args.progress.lower() == "true"
 LANGUAGE = args.language
-INPUT_AUDIO = args.input_audio
-MODEL_NAME = args.model_name
-FORMATTING_MODE = args.formatting_mode
-SHOW_PROGRESS = args.show_progress
-MONITOR_INTERVAL = args.monitor_interval
+INPUT_AUDIO = args.input
+MODEL_NAME = args.model
+FORMATTING_MODE = args.format
+MONITOR_INTERVAL = args.interval
 
 # Funkcja do tworzenia unikalnego podkatalogu
 def create_unique_output_dir(base_dir):
@@ -65,8 +66,8 @@ device = "cuda" if USE_GPU and torch.cuda.is_available() else "cpu"
 
 # Wymuś maksymalne wykorzystanie CPU w przypadku pracy na CPU
 if device == "cpu":
-    os.environ["OMP_NUM_THREADS"] = "8"  # Ustawienie liczby wątków na maksymalną liczbę logicznych procesorów
-    torch.set_num_threads(8)
+    os.environ["OMP_NUM_THREADS"] = str(os.cpu_count())  # Ustawienie liczby wątków na maksymalną liczbę logicznych procesorów
+    torch.set_num_threads(os.cpu_count())
 
 # Informacje o urządzeniu
 print(f"[INFO] Używane urządzenie: {device}")
@@ -77,14 +78,24 @@ model = whisper.load_model(MODEL_NAME, device=device)
 
 # Funkcja do monitorowania zasobów
 def monitor_resources(log_file, stop_flag):
+    wmi_obj = wmi.WMI()  # Inicjalizacja WMI
     with open(log_file, "a", encoding="utf-8") as log:
         log.write("\n[MONITORING STARTED]\n")
         log.write("Legenda:\n")
-        log.write("GPU Stats: [Utilization %, Memory Utilization %, Temperature (°C), Power Draw (W)]\n\n")
-
+        log.write("GPU Stats: [Utilization %, Memory Utilization %, Temperature (°C), Power Draw (W)]\n")
+        log.write("CPU Temperature: [°C]\n")
+        log.write("\n")
+        
         while not stop_flag["stop"]:
             cpu_usage = psutil.cpu_percent(interval=MONITOR_INTERVAL)
             memory_info = psutil.virtual_memory()
+            
+            # Pobieranie temperatury CPU za pomocą WMI
+            cpu_temps = []
+            for sensor in wmi_obj.MSAcpi_ThermalZoneTemperature():
+                temp_c = (sensor.CurrentTemperature / 10.0) - 273.15  # Konwersja Kelvin -> Celsius
+                cpu_temps.append(temp_c)
+            avg_cpu_temp = sum(cpu_temps) / len(cpu_temps) if cpu_temps else "N/A"
 
             if device == "cuda":
                 try:
@@ -95,9 +106,10 @@ def monitor_resources(log_file, stop_flag):
                     gpu_stats = "Błąd odczytu GPU"
             else:
                 gpu_stats = "GPU niedostępne"
-
+            
             log.write(f"CPU Usage: {cpu_usage}%\n")
             log.write(f"Memory Usage: {memory_info.percent}%\n")
+            log.write(f"CPU Temperature: {avg_cpu_temp}°C\n")
             log.write(f"GPU Stats: {gpu_stats}\n")
             log.flush()
 
@@ -133,7 +145,6 @@ with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
 # Zatrzymaj monitorowanie zasobów
 stop_flag["stop"] = True
 monitor_thread.join()
-
 # Mierzenie czasu zakończenia
 end_time = time.time()
 end_datetime = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
