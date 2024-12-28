@@ -6,9 +6,10 @@ from datetime import datetime
 import psutil
 import subprocess
 import argparse
-import wmi  # Dodanie obsługi WMI dla monitorowania temperatury CPU
+from threading import Thread
+import clr
 
-# Argumenty wiersza poleceń
+# Funkcja parsowania argumentów wiersza poleceń
 def parse_arguments():
     parser = argparse.ArgumentParser(description="Whisper transcription with GPU/CPU monitoring")
     parser.add_argument("--gpu", type=str, default="true", help="Czy używać GPU (true/false)")
@@ -78,43 +79,53 @@ model = whisper.load_model(MODEL_NAME, device=device)
 
 # Funkcja do monitorowania zasobów
 def monitor_resources(log_file, stop_flag):
-    wmi_obj = wmi.WMI()  # Inicjalizacja WMI
-    with open(log_file, "a", encoding="utf-8") as log:
-        log.write("\n[MONITORING STARTED]\n")
-        log.write("Legenda:\n")
-        log.write("GPU Stats: [Utilization %, Memory Utilization %, Temperature (°C), Power Draw (W)]\n")
-        log.write("CPU Temperature: [°C]\n")
-        log.write("\n")
-        
-        while not stop_flag["stop"]:
-            cpu_usage = psutil.cpu_percent(interval=MONITOR_INTERVAL)
-            memory_info = psutil.virtual_memory()
-            
-            # Pobieranie temperatury CPU za pomocą WMI
-            cpu_temps = []
-            for sensor in wmi_obj.MSAcpi_ThermalZoneTemperature():
-                temp_c = (sensor.CurrentTemperature / 10.0) - 273.15  # Konwersja Kelvin -> Celsius
-                cpu_temps.append(temp_c)
-            avg_cpu_temp = sum(cpu_temps) / len(cpu_temps) if cpu_temps else "N/A"
+    try:
+        clr.AddReference(os.path.join("ohm", "OpenHardwareMonitorLib.dll"))
+        from OpenHardwareMonitor.Hardware import Computer
 
-            if device == "cuda":
-                try:
-                    gpu_stats = subprocess.check_output([
-                        "nvidia-smi", "--query-gpu=utilization.gpu,utilization.memory,temperature.gpu,power.draw", "--format=csv,noheader,nounits"
-                    ]).decode("utf-8").strip()
-                except subprocess.CalledProcessError:
-                    gpu_stats = "Błąd odczytu GPU"
-            else:
-                gpu_stats = "GPU niedostępne"
-            
-            log.write(f"CPU Usage: {cpu_usage}%\n")
-            log.write(f"Memory Usage: {memory_info.percent}%\n")
-            log.write(f"CPU Temperature: {avg_cpu_temp}°C\n")
-            log.write(f"GPU Stats: {gpu_stats}\n")
-            log.flush()
+        computer = Computer()
+        computer.CPUEnabled = True
+        computer.Open()
+
+        with open(log_file, "a", encoding="utf-8") as log:
+            log.write("\n[MONITORING STARTED]\n")
+            log.write("Legenda:\n")
+            log.write("GPU Stats: [Utilization %, Memory Utilization %, Temperature (°C), Power Draw (W)]\n")
+            log.write("CPU Stats: [Usage %, Temperature (°C)]\n")
+            log.write("\n")
+
+            while not stop_flag["stop"]:
+                cpu_usage = psutil.cpu_percent(interval=MONITOR_INTERVAL)
+                memory_info = psutil.virtual_memory()
+
+                # Pobieranie temperatury CPU za pomocą OpenHardwareMonitor
+                cpu_temps = []
+                for hardware in computer.Hardware:
+                    hardware.Update()
+                    for sensor in hardware.Sensors:
+                        if sensor.SensorType == 1:  # 1 oznacza temperaturę
+                            cpu_temps.append(sensor.Value)
+                avg_cpu_temp = sum(cpu_temps) / len(cpu_temps) if cpu_temps else "N/A"
+
+                if device == "cuda":
+                    try:
+                        gpu_stats = subprocess.check_output([
+                            "nvidia-smi", "--query-gpu=utilization.gpu,utilization.memory,temperature.gpu,power.draw", "--format=csv,noheader,nounits"
+                        ]).decode("utf-8").strip()
+                    except subprocess.CalledProcessError:
+                        gpu_stats = "Błąd odczytu GPU"
+                else:
+                    gpu_stats = "GPU niedostępne"
+
+                log.write(f"CPU Usage: {cpu_usage}%\n")
+                log.write(f"Memory Usage: {memory_info.percent}%\n")
+                log.write(f"CPU Temperature: {avg_cpu_temp}°C\n")
+                log.write(f"GPU Stats: {gpu_stats}\n")
+                log.flush()
+    except Exception as e:
+        print(f"[ERROR] Błąd monitorowania zasobów: {e}")
 
 # Start monitorowania w oddzielnym wątku
-from threading import Thread
 stop_flag = {"stop": False}
 monitor_thread = Thread(target=monitor_resources, args=(LOG_FILE, stop_flag))
 monitor_thread.start()
