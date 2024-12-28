@@ -5,32 +5,15 @@ import time
 from datetime import datetime
 import psutil
 import subprocess
-import argparse
-from threading import Thread
-import clr
 
-# Funkcja parsowania argumentów wiersza poleceń
-def parse_arguments():
-    parser = argparse.ArgumentParser(description="Whisper transcription with GPU/CPU monitoring")
-    parser.add_argument("--gpu", type=str, default="true", help="Czy używać GPU (true/false)")
-    parser.add_argument("--language", type=str, default="pl", help="Język transkrypcji")
-    parser.add_argument("--input", type=str, default="audio.mp3", help="Nazwa pliku wejściowego")
-    parser.add_argument("--model", type=str, default="tiny", help="Model Whisper do użycia (np. tiny, medium, large)")
-    parser.add_argument("--format", type=str, default="default", help="Sposób formatowania tekstu (default, newlines_after_period, timestamps)")
-    parser.add_argument("--progress", type=str, default="true", help="Wyświetlanie postępu transkrypcji (true/false)")
-    parser.add_argument("--interval", type=int, default=1, help="Interwał monitorowania zasobów w sekundach")
-    return parser.parse_args()
-
-args = parse_arguments()
-
-# Konwersja argumentów string na odpowiednie typy logiczne
-USE_GPU = args.gpu.lower() == "true"
-SHOW_PROGRESS = args.progress.lower() == "true"
-LANGUAGE = args.language
-INPUT_AUDIO = args.input
-MODEL_NAME = args.model
-FORMATTING_MODE = args.format
-MONITOR_INTERVAL = args.interval
+# Konfigurowalne zmienne
+USE_GPU = False  # Ustaw True, aby wymusić użycie GPU, lub False, aby wymusić CPU
+LANGUAGE = "pl"  # Język transkrypcji
+INPUT_AUDIO = "audio.mp3"  # Nazwa pliku wejściowego
+MODEL_NAME = "tiny"  # Możesz zmienić na 'tiny', 'medium', 'large'
+FORMATTING_MODE = "default"  # Sposób formatowania tekstu: "default", "newlines_after_period", "timestamps"
+SHOW_PROGRESS = True  # Wyświetlanie postępu w konsoli
+MONITOR_INTERVAL = 1  # Interwał monitorowania zasobów w sekundach
 
 # Funkcja do tworzenia unikalnego podkatalogu
 def create_unique_output_dir(base_dir):
@@ -67,8 +50,8 @@ device = "cuda" if USE_GPU and torch.cuda.is_available() else "cpu"
 
 # Wymuś maksymalne wykorzystanie CPU w przypadku pracy na CPU
 if device == "cpu":
-    os.environ["OMP_NUM_THREADS"] = str(os.cpu_count())  # Ustawienie liczby wątków na maksymalną liczbę logicznych procesorów
-    torch.set_num_threads(os.cpu_count())
+    os.environ["OMP_NUM_THREADS"] = "8"  # Ustawienie liczby wątków na maksymalną liczbę logicznych procesorów
+    torch.set_num_threads(8)
 
 # Informacje o urządzeniu
 print(f"[INFO] Używane urządzenie: {device}")
@@ -79,53 +62,32 @@ model = whisper.load_model(MODEL_NAME, device=device)
 
 # Funkcja do monitorowania zasobów
 def monitor_resources(log_file, stop_flag):
-    try:
-        clr.AddReference(os.path.join("ohm", "OpenHardwareMonitorLib.dll"))
-        from OpenHardwareMonitor.Hardware import Computer
+    with open(log_file, "a", encoding="utf-8") as log:
+        log.write("\n[MONITORING STARTED]\n")
+        log.write("Legenda:\n")
+        log.write("GPU Stats: [Utilization %, Memory Utilization %, Temperature (°C), Power Draw (W)]\n\n")
 
-        computer = Computer()
-        computer.CPUEnabled = True
-        computer.Open()
+        while not stop_flag["stop"]:
+            cpu_usage = psutil.cpu_percent(interval=MONITOR_INTERVAL)
+            memory_info = psutil.virtual_memory()
 
-        with open(log_file, "a", encoding="utf-8") as log:
-            log.write("\n[MONITORING STARTED]\n")
-            log.write("Legenda:\n")
-            log.write("GPU Stats: [Utilization %, Memory Utilization %, Temperature (°C), Power Draw (W)]\n")
-            log.write("CPU Stats: [Usage %, Temperature (°C)]\n")
-            log.write("\n")
+            if device == "cuda":
+                try:
+                    gpu_stats = subprocess.check_output([
+                        "nvidia-smi", "--query-gpu=utilization.gpu,utilization.memory,temperature.gpu,power.draw", "--format=csv,noheader,nounits"
+                    ]).decode("utf-8").strip()
+                except subprocess.CalledProcessError:
+                    gpu_stats = "Błąd odczytu GPU"
+            else:
+                gpu_stats = "GPU niedostępne"
 
-            while not stop_flag["stop"]:
-                cpu_usage = psutil.cpu_percent(interval=MONITOR_INTERVAL)
-                memory_info = psutil.virtual_memory()
-
-                # Pobieranie temperatury CPU za pomocą OpenHardwareMonitor
-                cpu_temps = []
-                for hardware in computer.Hardware:
-                    hardware.Update()
-                    for sensor in hardware.Sensors:
-                        if sensor.SensorType == 1:  # 1 oznacza temperaturę
-                            cpu_temps.append(sensor.Value)
-                avg_cpu_temp = sum(cpu_temps) / len(cpu_temps) if cpu_temps else "N/A"
-
-                if device == "cuda":
-                    try:
-                        gpu_stats = subprocess.check_output([
-                            "nvidia-smi", "--query-gpu=utilization.gpu,utilization.memory,temperature.gpu,power.draw", "--format=csv,noheader,nounits"
-                        ]).decode("utf-8").strip()
-                    except subprocess.CalledProcessError:
-                        gpu_stats = "Błąd odczytu GPU"
-                else:
-                    gpu_stats = "GPU niedostępne"
-
-                log.write(f"CPU Usage: {cpu_usage}%\n")
-                log.write(f"Memory Usage: {memory_info.percent}%\n")
-                log.write(f"CPU Temperature: {avg_cpu_temp}°C\n")
-                log.write(f"GPU Stats: {gpu_stats}\n")
-                log.flush()
-    except Exception as e:
-        print(f"[ERROR] Błąd monitorowania zasobów: {e}")
+            log.write(f"CPU Usage: {cpu_usage}%\n")
+            log.write(f"Memory Usage: {memory_info.percent}%\n")
+            log.write(f"GPU Stats: {gpu_stats}\n")
+            log.flush()
 
 # Start monitorowania w oddzielnym wątku
+from threading import Thread
 stop_flag = {"stop": False}
 monitor_thread = Thread(target=monitor_resources, args=(LOG_FILE, stop_flag))
 monitor_thread.start()
@@ -156,6 +118,7 @@ with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
 # Zatrzymaj monitorowanie zasobów
 stop_flag["stop"] = True
 monitor_thread.join()
+
 # Mierzenie czasu zakończenia
 end_time = time.time()
 end_datetime = datetime.now().strftime("%Y-%m-%d %H:%M:%S")

@@ -61,7 +61,7 @@ function formatTranscription($text, $formattingMode, $segments = []) {
     return $text;
 }
 
-// Funkcja do monitorowania zasobów
+// Monitorowanie zasobów (dla Windows bez pcntl_fork)
 function monitorResources($logFile, $interval) {
     $log = fopen($logFile, 'a');
     fwrite($log, "[MONITORING STARTED]\n");
@@ -73,12 +73,10 @@ function monitorResources($logFile, $interval) {
     fclose($log);
 }
 
-// Uruchomienie monitorowania w tle
+// Uruchomienie monitorowania w osobnym procesie na Windows
 if (strtolower(PHP_OS) === 'winnt') {
-    $command = "php monitor.php --logFile=\"$logFile\" --interval=$monitor_interval";
-    pclose(popen("start /B $command", "r"));
-} else {
-    $pid = exec("php monitor.php --logFile=\"$logFile\" --interval=$monitor_interval > /dev/null & echo $!");
+    $command = "start /B php -r \"include 'monitor.php'; monitorResources('$logFile', $monitor_interval);\"";
+    pclose(popen($command, "r"));
 }
 
 // Rozpoczęcie transkrypcji
