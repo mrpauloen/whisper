@@ -23,18 +23,21 @@ This project aims to:
 
 1. Clone this repository:
 
-     ```bash
+     ```
      git clone https://github.com/your-username/your-repo-name.git
+     ```
 
 2. Install dependencies:
 
-    ```bash   
-      pip install -r requirements.txt
+    ```
+    pip install -r requirements.txt
+    ```
 
 4. Run the provided scripts to process your audio files. For example:
 
-    ```bash
+    ```
     python transcribe.py --audio-file path/to/your/audio.mp3
+    ```
   
 ## Requirements
 
