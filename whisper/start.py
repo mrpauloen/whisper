@@ -5,17 +5,32 @@ import time
 from datetime import datetime
 import psutil
 import subprocess
+import argparse
 
-# Configurable variables
-USE_GPU = True  # Set True to force GPU usage, False to force CPU
-LANGUAGE = "pl"  # Language for transcription
-INPUT_AUDIO = "audio.mp3"  # Input audio file name
-MODEL_NAME = "medium"  # Model name: 'tiny', 'medium', 'large', etc.
-FORMATTING_MODE = "timestamps"  # Formatting mode: "default", "newlines_after_period", "timestamps"
-SHOW_PROGRESS = True  # Display progress in the console
-MONITOR_INTERVAL = 1  # Resource monitoring interval in seconds
+# Argumenty wiersza poleceń
+def parse_arguments():
+    parser = argparse.ArgumentParser(description="Whisper transcription with GPU/CPU monitoring")
+    parser.add_argument("--use_gpu", type=bool, default=True, help="Czy używać GPU (True/False)")
+    parser.add_argument("--language", type=str, default="pl", help="Język transkrypcji")
+    parser.add_argument("--input_audio", type=str, default="audio.mp3", help="Nazwa pliku wejściowego")
+    parser.add_argument("--model_name", type=str, default="tiny", help="Model Whisper do użycia (np. tiny, medium, large)")
+    parser.add_argument("--formatting_mode", type=str, default="default", help="Sposób formatowania tekstu (default, newlines_after_period, timestamps)")
+    parser.add_argument("--show_progress", type=bool, default=True, help="Wyświetlanie postępu transkrypcji")
+    parser.add_argument("--monitor_interval", type=int, default=1, help="Interwał monitorowania zasobów w sekundach")
+    return parser.parse_args()
 
-# Function to create a unique output directory
+args = parse_arguments()
+
+# Konfigurowalne zmienne
+USE_GPU = args.use_gpu
+LANGUAGE = args.language
+INPUT_AUDIO = args.input_audio
+MODEL_NAME = args.model_name
+FORMATTING_MODE = args.formatting_mode
+SHOW_PROGRESS = args.show_progress
+MONITOR_INTERVAL = args.monitor_interval
+
+# Funkcja do tworzenia unikalnego podkatalogu
 def create_unique_output_dir(base_dir):
     counter = 0
     unique_dir = base_dir
@@ -25,7 +40,7 @@ def create_unique_output_dir(base_dir):
     os.makedirs(unique_dir)
     return unique_dir
 
-# Function to format transcription text
+# Funkcja do formatowania tekstu transkrypcji
 def format_transcription(text, formatting_mode, segments=None):
     if formatting_mode == "newlines_after_period":
         return text.replace(". ", ".\n")
@@ -39,87 +54,92 @@ def format_transcription(text, formatting_mode, segments=None):
         return formatted_text
     return text
 
-# Create unique output directory for results
+# Tworzenie unikalnego podkatalogu dla wyników
 OUTPUT_DIR_BASE = os.path.join(os.getcwd(), MODEL_NAME)
 OUTPUT_DIR = create_unique_output_dir(OUTPUT_DIR_BASE)
-OUTPUT_FILE = os.path.join(OUTPUT_DIR, f"{MODEL_NAME}.txt")  # Output text file
-LOG_FILE = os.path.join(OUTPUT_DIR, "log.txt")  # Log file
+OUTPUT_FILE = os.path.join(OUTPUT_DIR, f"{MODEL_NAME}.txt")  # Wyjściowy plik tekstowy
+LOG_FILE = os.path.join(OUTPUT_DIR, "log.txt")  # Plik logów
 
-# Detect device availability
+# Wykrywanie dostępności GPU
 device = "cuda" if USE_GPU and torch.cuda.is_available() else "cpu"
 
-# Maximize CPU thread usage if running on CPU
+# Wymuś maksymalne wykorzystanie CPU w przypadku pracy na CPU
 if device == "cpu":
-    os.environ["OMP_NUM_THREADS"] = str(psutil.cpu_count(logical=True))
-    torch.set_num_threads(psutil.cpu_count(logical=True))
+    os.environ["OMP_NUM_THREADS"] = "8"  # Ustawienie liczby wątków na maksymalną liczbę logicznych procesorów
+    torch.set_num_threads(8)
 
-# Device info
-print(f"[INFO] Using device: {device}")
+# Informacje o urządzeniu
+print(f"[INFO] Używane urządzenie: {device}")
 
-# Load Whisper model
-print(f"[INFO] Loading model '{MODEL_NAME}' on device '{device}'...")
+# Wczytaj model Whisper
+print(f"[INFO] Ładowanie modelu '{MODEL_NAME}' na urządzeniu '{device}'...")
 model = whisper.load_model(MODEL_NAME, device=device)
 
-# Function to monitor system resources
+# Funkcja do monitorowania zasobów
 def monitor_resources(log_file, stop_flag):
     with open(log_file, "a", encoding="utf-8") as log:
         log.write("\n[MONITORING STARTED]\n")
+        log.write("Legenda:\n")
+        log.write("GPU Stats: [Utilization %, Memory Utilization %, Temperature (°C), Power Draw (W)]\n\n")
+
         while not stop_flag["stop"]:
             cpu_usage = psutil.cpu_percent(interval=MONITOR_INTERVAL)
             memory_info = psutil.virtual_memory()
-            gpu_stats = "GPU unavailable"
+
             if device == "cuda":
                 try:
                     gpu_stats = subprocess.check_output([
-                        "nvidia-smi", "--query-gpu=utilization.gpu,utilization.memory,temperature.gpu,power.draw",
-                        "--format=csv,noheader,nounits"
+                        "nvidia-smi", "--query-gpu=utilization.gpu,utilization.memory,temperature.gpu,power.draw", "--format=csv,noheader,nounits"
                     ]).decode("utf-8").strip()
                 except subprocess.CalledProcessError:
-                    gpu_stats = "Error fetching GPU stats"
+                    gpu_stats = "Błąd odczytu GPU"
+            else:
+                gpu_stats = "GPU niedostępne"
+
             log.write(f"CPU Usage: {cpu_usage}%\n")
             log.write(f"Memory Usage: {memory_info.percent}%\n")
             log.write(f"GPU Stats: {gpu_stats}\n")
             log.flush()
 
-# Start resource monitoring in a separate thread
+# Start monitorowania w oddzielnym wątku
 from threading import Thread
 stop_flag = {"stop": False}
 monitor_thread = Thread(target=monitor_resources, args=(LOG_FILE, stop_flag))
 monitor_thread.start()
 
-# Measure start time
+# Mierzenie czasu rozpoczęcia
 start_time = time.time()
 start_datetime = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-print(f"[INFO] Transcription started: {start_datetime}")
+print(f"[INFO] Rozpoczęcie transkrypcji: {start_datetime}")
 
-# Perform transcription with optional progress display
+# Transkrypcja z opcjonalnym wyświetlaniem postępu
 if SHOW_PROGRESS:
-    print(f"[INFO] Starting transcription of '{INPUT_AUDIO}' with progress display...")
+    print(f"[INFO] Rozpoczynanie transkrypcji pliku '{INPUT_AUDIO}' z podglądem postępu...")
     result = model.transcribe(INPUT_AUDIO, language=LANGUAGE, verbose=True)
 else:
-    print(f"[INFO] Starting transcription of '{INPUT_AUDIO}'...")
+    print(f"[INFO] Rozpoczynanie transkrypcji pliku '{INPUT_AUDIO}'...")
     result = model.transcribe(INPUT_AUDIO, language=LANGUAGE)
 
-# Format transcription text
+# Formatowanie tekstu
 formatted_text = format_transcription(result["text"], FORMATTING_MODE, result.get("segments"))
 
-# Save the result to a text file
+# Zapisz wynik do pliku tekstowego z odstępami dla czytelności
 with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-    f.write("Transcription started: " + start_datetime + "\n\n")
+    f.write("Rozpoczęcie transkrypcji: " + start_datetime + "\n\n")
     f.write(formatted_text + "\n\n")
-    f.write("Transcription ended: " + datetime.now().strftime("%Y-%m-%d %H:%M:%S") + "\n")
-    f.write(f"Duration: {time.time() - start_time:.2f} seconds\n")
+    f.write("Zakończenie transkrypcji: " + datetime.now().strftime("%Y-%m-%d %H:%M:%S") + "\n")
+    f.write(f"Czas trwania procesu: {time.time() - start_time:.2f} sekund\n")
 
-# Stop resource monitoring
+# Zatrzymaj monitorowanie zasobów
 stop_flag["stop"] = True
 monitor_thread.join()
 
-# Measure end time
+# Mierzenie czasu zakończenia
 end_time = time.time()
 end_datetime = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 duration = end_time - start_time
-print(f"[INFO] Transcription ended: {end_datetime}")
-print(f"[INFO] Duration: {duration:.2f} seconds")
+print(f"[INFO] Zakończenie transkrypcji: {end_datetime}")
+print(f"[INFO] Czas trwania procesu: {duration:.2f} sekund")
 
-print(f"[INFO] Transcription completed! Result saved to: {OUTPUT_FILE}")
-print(f"[INFO] Logs saved to: {LOG_FILE}")
+print(f"[INFO] Transkrypcja zakończona! Wynik zapisany w pliku: {OUTPUT_FILE}")
+print(f"[INFO] Logi zapisane w pliku: {LOG_FILE}")

@@ -1,4 +1,5 @@
 ## Wyjaśnienie parametrów:
+
   `--use_gpu:` Określa, czy używać GPU (True) lub CPU (False).
 
   `--language:` Język transkrypcji (np. "pl" dla polskiego, "en" dla angielskiego).
@@ -20,6 +21,7 @@
   `--monitor_interval:` Interwał monitorowania zasobów w sekundach (np. 2).
 
 ## Wynik:
+
   Plik wynikowy (tiny.txt lub inny zależny od modelu) zostanie zapisany w automatycznie utworzonym podkatalogu (tiny, medium, itp.) z dodatkową numeracją w przypadku wielu uruchomień.
   Plik logów (log.txt) zawiera szczegóły użycia CPU, GPU, pamięci, temperatury oraz mocy.
 
